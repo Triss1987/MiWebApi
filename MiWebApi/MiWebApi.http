@@ -1,0 +1,15 @@
+@MiWebApi_HostAddress = http://localhost:5283
+
+GET {{MiWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{MiWebApi_HostAddress}}/api/superhero
+Content-Type: application/json
+
+{
+  //SuperHero
+}
+
+###
