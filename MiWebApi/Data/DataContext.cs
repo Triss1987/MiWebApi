@@ -10,6 +10,6 @@ namespace MiWebApi.Data
                 
         }
 
-        public DbSet<SuperHero> SuperHeroes { get; set; }
+        public DbSet<ServiciosFinancieros> ServiciosFinancieros { get; set; }
     }
 }
